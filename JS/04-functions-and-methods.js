@@ -1,9 +1,9 @@
 // Problem #1
-// function sayHello(person) {
-//   var secondPerson = "Hello, " + person + "!";
-//   console.log(secondPerson);
-//   alert(secondPerson);
-// }
+function sayHello(person) {
+  var secondPerson = "Hello, " + person + "!";
+  console.log(secondPerson);
+  alert(secondPerson);
+}
 
 var person = prompt ("What's your name?");
 // sayHello(person);
@@ -64,3 +64,29 @@ var partyGuests = prompt ("How many people?");
 var partyPizzas = prompt ("How many pies?");
 
 console.log(distribution(partyGuests, partyPizzas));
+
+//Problem #5
+function MadLib(noun, verb, adjective, adverb, nounNumber) {
+  this.noun = noun;
+  this.verb = verb;
+  this.adjective = adjective;
+  this.adverb = adverb;
+  this.number = nounNumber;
+  this.funnySentence = function (option) {
+    var string;
+    if(option === 1) {
+      string = " The "  + this.noun + " " + this.verb + " " + this.adverb + " to the " + this.adjective + " roller skating rink. ";
+    }
+    if (option === 2) {
+        string = this.number + " " + this.noun + " " + this.verb + " " + this.adverb + " over the " + this.adjective + " dumpster. ";
+    }
+    if (option === 3) {
+        string = " There are " + this.number + " " + this.noun + " " + this.verb + " " + this.adverb + " in a " + this.adjective + " clown car. ";
+    }
+    if (option === 4) {
+        string = " A " + this.noun + " " + this.verb + " " + this.adverb + " at the " + this.adjective + " shopping center. ";
+    }
+    return string;
+  }
+}
+var game = new MadLib("Candice", "loves", "shiny", "a lot", "7");
