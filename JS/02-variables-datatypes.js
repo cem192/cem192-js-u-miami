@@ -72,13 +72,13 @@ while (i < 10) {
 console.log(i);
 i+=
 }
-// Ask Matt "Uncaught syntax error: unexpected token}, but i followed all instructions"
+
 
 //Problem #6
 var i = 10:
 while (i > 0) {
   console.log(i);
-  i--
+  i--;
 }
 10
 9
@@ -94,9 +94,9 @@ while (i > 0) {
 var i = 10;
 while (i > 0) {
 console.log(i);
-i-=
+i-=;
 }
-// Ask Matt, same problem as above
+
 
 // Problem #7
 var i = 4;

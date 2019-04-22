@@ -6,7 +6,7 @@ Candice
 console.log("Mom's Cooking");
  Mom's Cooking
 console.log('Mom's Cooking');
-//answer Uncaught syntax error: missing ) after argument list
+
 consoloe.log('Mom\'s cooking');
 Uncaught ReferenceError: consoloe is not defined at <anonymous>:1:1
 *****Ask Matt how to fix this
@@ -18,7 +18,7 @@ document.write("Goodbye");
 Goodbye
 document.write("Hack/Slash");
 Hack/Slash
-***** Ask about last task of this question
+
 
 // Problem #3
 window.alert("Hello");
