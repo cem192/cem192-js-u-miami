@@ -63,8 +63,7 @@ Math.random()
 "Hello".toLowerCase();
 "hello"
 "Hello".capitalize();
-reads as not a function
-**** ask matt about .capitalize
+
 
 //Problem #7
 "cat".replace("t", "r");
