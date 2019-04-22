@@ -8,8 +8,7 @@ console.log("Mom's Cooking");
 console.log('Mom's Cooking');
 
 consoloe.log('Mom\'s cooking');
-Uncaught ReferenceError: consoloe is not defined at <anonymous>:1:1
-*****Ask Matt how to fix this
+
 
 // Problem #2
 document.write("Hello");
