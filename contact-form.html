@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact Form</title>
+  </head>
+
+
+  <body>
+    <header>
+      <h1>Contact Form</h1>
+
+    </header>
+
+
+    <main>
+
+      <section>
+        <form onsubmit="return false;">
+          <!-- Create your form here -->
+          <input type="text" name="name" ></input>
+            <input type="text" name="address"></input>
+              <input type="text" name="phone"></input>
+                <input type="text" name="email"></input>
+                  <input type="submit" name="submit" onclick="formFill()"></input>
+        </form>
+      </section>
+
+
+      <section>
+
+        <p>You entered:</p>
+
+        <p><strong>Name:</strong> <span id="name"></span></p>
+        <p><strong>Address:</strong> <span id="address"></span></p>
+        <p><strong>Phone:</strong> <span id="phone"></span></p>
+        <p><strong>E-mail:</strong> <span id="email"></span></p>
+
+      </section>
+
+    </main>
+
+    <script src="js/contact-form.js"></script>
+  </body>
+</html>

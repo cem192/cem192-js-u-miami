@@ -14,9 +14,9 @@ window.alert(txt);
 //Problem #2
 var txt;
 var user = prompt("Which do you like more? Cats or dogs?");
-if (user==cats) {
+if (user=="cats") {
   txt = "Meow!";
-} else if (user==dogs){
+} else if (user=="dogs"){
   txt = "Woof!";
 } else {
   txt = "Animal Hater!";
@@ -53,18 +53,23 @@ switch (user) {
 
 // Loops
 // Problem #1
-for (i = 1; i < 11; i++)
+for (i = 1; i < 11; i++){
+console.log(i);
+}
 
 // Problem #2
 var i = 10;
 while (i > 1){
+  console.log(i);
   i--;
 }
 
 //Problem #3
 var i = 10;
-do { i--;
-} while (i > 1);
+do {
+  console.log(i);
+  i--;
+} while (i == true);
 
 // Problem #4
 var array = ["Flynn", "Quorra", "Coby", "Charlie"];

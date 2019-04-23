@@ -11,7 +11,7 @@ function addTags(){
 	document.head.appendChild(meta);
 	document.head.appendChild(title);
 }
-    
+
 
 
 //Task #2
